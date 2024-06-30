@@ -43,7 +43,7 @@ export default function About(){
                         <div className="md:w-1/2">
                             <div className="flex justify-center w-full">
                                 <div className="w-4/5 sm:w-1/2 md:w-4/5 lg:w-1/2 rounded-md overflow-hidden relative">
-                                    <img src="src/assets/profile.jpeg" alt="" className="" />
+                                    <img src="vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a322c226964223a2262313934623736386437663864666532613331326633383431303562356435343861303135633061227d7d/rtrivaldo/rivaldotandoko/src/assets/profile.jpeg" alt="" className="" />
                                 </div>
                             </div>
                         </div>

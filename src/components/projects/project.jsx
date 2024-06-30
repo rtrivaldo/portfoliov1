@@ -23,22 +23,22 @@ export default function Project(){
                     <div className="mt-10">
                         {/* expense tracker */}
                         <div>
-                            <Card title={"Expense Tracker"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"src/assets/expense-tracker.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="Laravel" />, <TechStack text="SQLite" />]} link={"https://github.com/rtrivaldo/expense-tracker"} />
+                            <Card title={"Expense Tracker"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a322c226964223a2262313934623736386437663864666532613331326633383431303562356435343861303135633061227d7d/rtrivaldo/rivaldotandoko/src/assets/expense-tracker.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="Laravel" />, <TechStack text="SQLite" />]} link={"https://github.com/rtrivaldo/expense-tracker"} />
                         </div>
 
                         {/* tic tac toe */}
                         <div className="mt-20">
-                            <Card title={"Tic Tac Toe"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"src/assets/tic-tac-toe.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="React" />]} link={"https://tic-tac-8l70v27il-rivaldo-tandokos-projects.vercel.app/"} />
+                            <Card title={"Tic Tac Toe"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a322c226964223a2262313934623736386437663864666532613331326633383431303562356435343861303135633061227d7d/rtrivaldo/rivaldotandoko/src/assets/tic-tac-toe.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="React" />]} link={"https://tic-tac-8l70v27il-rivaldo-tandokos-projects.vercel.app/"} />
                         </div>
 
                         {/* omah */}
                         <div className="mt-20">
-                            <Card title={"Omah"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"src/assets/omah.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="JavaScript" />]} link={"https://rtrivaldo.github.io/Omah/public/index.html"} />
+                            <Card title={"Omah"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a322c226964223a2262313934623736386437663864666532613331326633383431303562356435343861303135633061227d7d/rtrivaldo/rivaldotandoko/src/assets/omah.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="JavaScript" />]} link={"https://rtrivaldo.github.io/Omah/public/index.html"} />
                         </div>
 
                         {/* landscapio */}
                         <div className="mt-20">
-                            <Card title={"Landscapio"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"src/assets/landscapio.jpeg"} techStack={[<TechStack text="HTML" />, <TechStack text="CSS" />, <TechStack text="JavaScript" />]} link={"https://rtrivaldo.github.io/landscapio/"} />
+                            <Card title={"Landscapio"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a322c226964223a2262313934623736386437663864666532613331326633383431303562356435343861303135633061227d7d/rtrivaldo/rivaldotandoko/src/assets/landscapio.jpeg"} techStack={[<TechStack text="HTML" />, <TechStack text="CSS" />, <TechStack text="JavaScript" />]} link={"https://rtrivaldo.github.io/landscapio/"} />
                         </div>
                     </div>
                 </div>
