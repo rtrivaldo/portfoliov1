@@ -1,4 +1,3 @@
-
 import TypeIt from "typeit";
 window.onload = () => {
     /* cursor */
@@ -14,7 +13,7 @@ window.onload = () => {
         
         cursorOutline.style.left = `${mouseX}px`;
         cursorOutline.style.top = `${mouseY}px`;
-        
+
         cursorOutline.animate({
             left: `${mouseX}px`,
             top: `${mouseY}px`,
@@ -56,7 +55,7 @@ window.onload = () => {
         }, {duration: 1500, fill: 'forwards'})
 
         parallaxProjects.animate({
-            right: `${offset * 0.25}px`,
+            right: `${offset * 0.15}px`,
         }, {duration: 1000, fill: 'forwards'})
     })
 
@@ -81,4 +80,28 @@ window.onload = () => {
     .type("build responsive web pages.")
     .pause(3000)
     .go();
+
+    /* navbar */
+    const navbar = document.getElementById('navbar');
+    let lastScrollPosition = 0;
+
+    window.addEventListener('scroll', () => {
+        let scrollPosition = window.pageYOffset;
+
+        if (scrollPosition < lastScrollPosition && scrollPosition > 0) {
+            // Scrolling up
+            navbar.style.top = '0';
+            navbar.classList.remove('shadow-none');
+            navbar.classList.add('shadow-lg');
+        } else if (scrollPosition > lastScrollPosition) {
+            // Scrolling down
+            navbar.style.top = '-100px';
+        } else if (scrollPosition == 0) {
+            navbar.style.top = '0';
+            navbar.classList.remove('shadow-lg');
+            navbar.classList.add('shadow-none');
+        }
+
+        lastScrollPosition = scrollPosition;
+    });
 }

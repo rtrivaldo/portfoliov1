@@ -23,22 +23,22 @@ export default function Project(){
                     <div className="mt-10">
                         {/* expense tracker */}
                         <div>
-                            <Card title={"Expense Tracker"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"src/assets/expense-tracker.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="Laravel" />, <TechStack text="SQLite" />]} link={"https://github.com/rtrivaldo/expense-tracker"} />
+                            <Card title={"Expense Tracker"} description={"An expense tracking application built using the Laravel framework enables users to effortlessly record and manage their expenses. Key features include transaction logging, monthly expense reporting, and an integrated authentication system to ensure user data security."} image={"assets/expense-tracker.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="Laravel" />, <TechStack text="SQLite" />]} link={"https://github.com/rtrivaldo/expense-tracker"} />
                         </div>
 
                         {/* tic tac toe */}
                         <div className="mt-20">
-                            <Card title={"Tic Tac Toe"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"src/assets/tic-tac-toe.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="React" />]} link={"https://tic-tac-8l70v27il-rivaldo-tandokos-projects.vercel.app/"} />
+                            <Card title={"Tic Tac Toe"} description={"Developing a Tic Tac Toe game using the React library allows two players to compete on a 3x3 game board. Key features include interactive move selection, real-time game status updates like player turns and winner announcements, and a responsive, user-friendly interface."} image={"assets/tic-tac-toe.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="React" />]} link={"https://tic-tac-toe-alpha-two-29.vercel.app"} />
                         </div>
 
                         {/* omah */}
                         <div className="mt-20">
-                            <Card title={"Omah"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"src/assets/omah.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="JavaScript" />]} link={"https://rtrivaldo.github.io/Omah/public/index.html"} />
+                            <Card title={"Omah"} description={"Omah is a challenge from Codedesign.dev that tasked me with coding a project based on a Figma design. The challenge involved translating the visual design into a functional, responsive website, showcasing my skills in front-end development and design implementation."} image={"assets/omah.jpeg"} techStack={[<TechStack text="TailwindCSS" />, <TechStack text="JavaScript" />]} link={"https://rtrivaldo.github.io/Omah"} />
                         </div>
 
                         {/* landscapio */}
                         <div className="mt-20">
-                            <Card title={"Landscapio"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus optio ipsam deleniti id, incidunt sit a vel possimus quaerat!"} image={"src/assets/landscapio.jpeg"} techStack={[<TechStack text="HTML" />, <TechStack text="CSS" />, <TechStack text="JavaScript" />]} link={"https://rtrivaldo.github.io/landscapio/"} />
+                            <Card title={"Landscapio"} description={"Landscapio is a challenge from Codedesign.dev where I was required to code a project from a Figma design. This task involved transforming the provided visual layout into a functional and responsive website, demonstrating my ability to accurately implement design specifications using front-end development skills."} image={"assets/landscapio.jpeg"} techStack={[<TechStack text="HTML" />, <TechStack text="CSS" />, <TechStack text="JavaScript" />]} link={"https://rtrivaldo.github.io/landscapio"} />
                         </div>
                     </div>
                 </div>

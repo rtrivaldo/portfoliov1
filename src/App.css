@@ -2,3 +2,11 @@ html{
     scrollbar-color: #e2e8f0 transparent;
     scrollbar-width: thin;
 }
+
+#cursorBackground{
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    background-image: radial-gradient(circle, #0d2661, transparent);
+    filter: blur(100px);
+}

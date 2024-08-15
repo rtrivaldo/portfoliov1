@@ -3,9 +3,9 @@ import Hamburger from "../UI/hamburger/hamburger";
 export default function NavBar() {
     return (
         <>
-            <nav className="py-8 flex justify-between items-center">
+            <nav className="py-8 flex justify-between items-center fixed w-full right-0 px-6 md:px-10 top-0 bg-background z-40 transition-all duration-500" id="navbar">
                 {/* logo */}
-                <div className="">
+                <div>
                     <a className="text-lg font-bold hover:text-secondary" id="cursorHover"> &lt; Rivaldo Tandoko /&gt; </a>
                 </div>
 

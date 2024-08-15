@@ -26,14 +26,11 @@ export default function About(){
                                 <span>Here are few technologies I&apos;ve been working with recently:</span>
                                 <div className="columns-2 mt-2">
                                     <div className="text-sm md:text-base">
-                                        <p>&#10148; HTML</p>
-                                        <p>&#10148; CSS</p>
-                                        <p>&#10148; TailwindCSS</p>
                                         <p>&#10148; JavaScript</p>
-                                        <p>&#10148; Node.js</p>
-                                        <p>&#10148; React</p>
-                                        <p>&#10148; PHP</p>
-                                        <p>&#10148; Laravel</p>
+                                        <p className="mt-2">&#10148; Node.js</p>
+                                        <p className="mt-2">&#10148; React</p>
+                                        <p className="mt-2">&#10148; PHP</p>
+                                        <p className="mt-2">&#10148; Laravel</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +40,7 @@ export default function About(){
                         <div className="md:w-1/2">
                             <div className="flex justify-center w-full">
                                 <div className="w-4/5 sm:w-1/2 md:w-4/5 lg:w-1/2 rounded-md overflow-hidden relative">
-                                    <img src="src/assets/profile.jpeg" alt="" className="" />
+                                    <img src="assets/profile.jpeg" alt="" className="" />
                                 </div>
                             </div>
                         </div>

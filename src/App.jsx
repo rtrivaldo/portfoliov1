@@ -11,6 +11,8 @@ function App() {
   return (
     <>
       <div className="px-6 md:px-10 lg:mx-auto">
+        <div id="particles-js"></div>
+        
         {/* cursor */}
         <Cursor />
 
